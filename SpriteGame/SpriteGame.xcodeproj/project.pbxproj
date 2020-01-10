@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70873D7235460B3006A88CC /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70873D6235460B3006A88CC /* Info.swift */; };
+		A73B3CDF234DC804007FF221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B3CDE234DC804007FF221 /* AppDelegate.swift */; };
+		A73B3CE1234DC804007FF221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B3CE0234DC804007FF221 /* ViewController.swift */; };
+		A73B3CE4234DC804007FF221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73B3CE2234DC804007FF221 /* Main.storyboard */; };
+		A73B3CE6234DC804007FF221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73B3CE5234DC804007FF221 /* Assets.xcassets */; };
+		A73B3CE9234DC804007FF221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73B3CE7234DC804007FF221 /* LaunchScreen.storyboard */; };
+		A73B3CF1234DC95B007FF221 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B3CF0234DC95B007FF221 /* GameScene.swift */; };
+		A73B3CF5234DEE87007FF221 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B3CF4234DEE87007FF221 /* GameOverScene.swift */; };
+		A778FCCB239FAA0F0083D88D /* Markinator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A778FCCA239FAA0E0083D88D /* Markinator.jpg */; };
+		A78DAC41235DE08400CC81F2 /* Monsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78DAC40235DE08400CC81F2 /* Monsters.swift */; };
+		A79DCE1D236086CA00897E66 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79DCE1C236086CA00897E66 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A70873D6235460B3006A88CC /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		A73B3CDB234DC804007FF221 /* Ninja Markus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ninja Markus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73B3CDE234DC804007FF221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A73B3CE0234DC804007FF221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A73B3CE3234DC804007FF221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A73B3CE5234DC804007FF221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A73B3CE8234DC804007FF221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A73B3CEA234DC804007FF221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73B3CF0234DC95B007FF221 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A73B3CF4234DEE87007FF221 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		A778FCCA239FAA0E0083D88D /* Markinator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Markinator.jpg; path = ../../../Markinator.jpg; sourceTree = "<group>"; };
+		A78DAC40235DE08400CC81F2 /* Monsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monsters.swift; sourceTree = "<group>"; };
+		A79DCE1C236086CA00897E66 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A73B3CD8234DC804007FF221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A73B3CD2234DC804007FF221 = {
+			isa = PBXGroup;
+			children = (
+				A73B3CDD234DC804007FF221 /* SpriteGame */,
+				A73B3CDC234DC804007FF221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A73B3CDC234DC804007FF221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A73B3CDB234DC804007FF221 /* Ninja Markus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A73B3CDD234DC804007FF221 /* SpriteGame */ = {
+			isa = PBXGroup;
+			children = (
+				A778FCCA239FAA0E0083D88D /* Markinator.jpg */,
+				A73B3CF0234DC95B007FF221 /* GameScene.swift */,
+				A73B3CDE234DC804007FF221 /* AppDelegate.swift */,
+				A73B3CE0234DC804007FF221 /* ViewController.swift */,
+				A73B3CE2234DC804007FF221 /* Main.storyboard */,
+				A73B3CE5234DC804007FF221 /* Assets.xcassets */,
+				A73B3CE7234DC804007FF221 /* LaunchScreen.storyboard */,
+				A73B3CEA234DC804007FF221 /* Info.plist */,
+				A73B3CF4234DEE87007FF221 /* GameOverScene.swift */,
+				A70873D6235460B3006A88CC /* Info.swift */,
+				A78DAC40235DE08400CC81F2 /* Monsters.swift */,
+				A79DCE1C236086CA00897E66 /* Player.swift */,
+			);
+			path = SpriteGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A73B3CDA234DC804007FF221 /* SpriteGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73B3CED234DC804007FF221 /* Build configuration list for PBXNativeTarget "SpriteGame" */;
+			buildPhases = (
+				A73B3CD7234DC804007FF221 /* Sources */,
+				A73B3CD8234DC804007FF221 /* Frameworks */,
+				A73B3CD9234DC804007FF221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteGame;
+			productName = SpriteGame;
+			productReference = A73B3CDB234DC804007FF221 /* Ninja Markus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A73B3CD3234DC804007FF221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = RMA;
+				TargetAttributes = {
+					A73B3CDA234DC804007FF221 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1110;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A73B3CD6234DC804007FF221 /* Build configuration list for PBXProject "SpriteGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A73B3CD2234DC804007FF221;
+			productRefGroup = A73B3CDC234DC804007FF221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A73B3CDA234DC804007FF221 /* SpriteGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A73B3CD9234DC804007FF221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73B3CE9234DC804007FF221 /* LaunchScreen.storyboard in Resources */,
+				A778FCCB239FAA0F0083D88D /* Markinator.jpg in Resources */,
+				A73B3CE6234DC804007FF221 /* Assets.xcassets in Resources */,
+				A73B3CE4234DC804007FF221 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A73B3CD7234DC804007FF221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73B3CF1234DC95B007FF221 /* GameScene.swift in Sources */,
+				A73B3CE1234DC804007FF221 /* ViewController.swift in Sources */,
+				A73B3CF5234DEE87007FF221 /* GameOverScene.swift in Sources */,
+				A70873D7235460B3006A88CC /* Info.swift in Sources */,
+				A79DCE1D236086CA00897E66 /* Player.swift in Sources */,
+				A73B3CDF234DC804007FF221 /* AppDelegate.swift in Sources */,
+				A78DAC41235DE08400CC81F2 /* Monsters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A73B3CE2234DC804007FF221 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73B3CE3234DC804007FF221 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A73B3CE7234DC804007FF221 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73B3CE8234DC804007FF221 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A73B3CEB234DC804007FF221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A73B3CEC234DC804007FF221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A73B3CEE234DC804007FF221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8FUK7N87Y;
+				INFOPLIST_FILE = SpriteGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rma1337.SpriteGame;
+				PRODUCT_NAME = "Ninja Markus";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A73B3CEF234DC804007FF221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8FUK7N87Y;
+				INFOPLIST_FILE = SpriteGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rma1337.SpriteGame;
+				PRODUCT_NAME = "Ninja Markus";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A73B3CD6234DC804007FF221 /* Build configuration list for PBXProject "SpriteGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73B3CEB234DC804007FF221 /* Debug */,
+				A73B3CEC234DC804007FF221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73B3CED234DC804007FF221 /* Build configuration list for PBXNativeTarget "SpriteGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73B3CEE234DC804007FF221 /* Debug */,
+				A73B3CEF234DC804007FF221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A73B3CD3234DC804007FF221 /* Project object */;
+}
